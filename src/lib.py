@@ -97,6 +97,6 @@ def fetch_ratio_quote():
             raise Exception(f'src/lib.py : fetch_ratio_quote() :: ERROR ::: {e}')
         finally:
             ratio = cprice0/cprice1
-            print(f'src/lib.py : fetch_ratio_quote() :: {cname0}/{cname1} Ratio = {ratio}')
+            print(f'\nsrc/lib.py : fetch_ratio_quote() :: {cname0}/{cname1} = {ratio}')
             conn.close()
 
