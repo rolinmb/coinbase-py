@@ -1,3 +1,5 @@
+APIURL = 'api.exchange.coinbase.com'
+
 def check_user_input(crypto_name):
     if len(crypto_name) < 2:
         raise ValueError('check_user_input() :: ERROR ::: Cryptocurrency name must be at least 3 alphabetical characters.')
